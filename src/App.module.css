@@ -23,57 +23,13 @@
     text-align: center;
 } 
 
-.cardsContainer, .smallCardsContainer{
-    width: 1596px;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.smallCardsContainer{
-    margin: 20px 0px;
-
-    grid-template-columns: repeat(3, 1fr);
-}
-
-@media (max-width: 1596px) {
-    .cardsContainer, .smallCardsContainer{
-        width: 1056px;
-    
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    
-    .smallCardsContainer{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 1056px) {
-    .cardsContainer, .smallCardsContainer{
-        width: 538px;
-
-        justify-content: center
-    }
-    
-    .smallCardsContainer{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 790px) {
-    .smallCardsContainer{
-        width: 518px;
-    }
-}
-
 .newCardsContainer{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
     max-width: 1596px;
+
+    margin-bottom: 20px;
 }
 
 .newCardsContainer > *{

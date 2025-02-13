@@ -1,3 +1,4 @@
+import './reset.css';
 import styles from './App.module.css';
 import Input from './components/Input/Input';
 import Card from './components/Card/Card';
